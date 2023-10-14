@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+.top-bar{
+    background-color: #192f59;
+    height: 60px;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 1149px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.second-bar{
+    background-color: rgba(77, 213, 237, 0.535);
+    height: 40px;
+   
+}
+.middle-bar{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Text{
+    position: absolute;
+  top: 236px; 
+  left: 426px;
+  transform: translate(-40%, -50%); 
+  color: #fff; 
+  font-size: 48px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 200px;
+  box-sizing: border-box;
+
+}
+.bottom-bar{
+    background-color: #242d36;
+    height: 100px;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
